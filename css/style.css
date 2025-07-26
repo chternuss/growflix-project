@@ -1,0 +1,33 @@
+:root {
+    --btn-background: #FF0000;
+    --text-color: #ffffff;
+    --btn-background-hover: #CC0000;
+    --divider-row: #515c6f;
+}
+
+#initial-content {
+    background-image: url(../assets/images/banner-initial.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#logo {
+    width: 120px;
+    height: 30px;
+}
+
+.btn-red {
+    background-color: var(--btn-background);
+    color: var(--text-color);
+    padding: 20px 30px;
+}
+
+.btn-red:hover{
+    background-color: var(--btn-background-hover);
+    color: var(--text-color);
+}
+
+.divider-row {
+  border-bottom: 3px solid var(--divider-row);
+}
