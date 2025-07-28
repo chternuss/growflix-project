@@ -3,6 +3,8 @@
     --text-color: #ffffff;
     --btn-background-hover: #CC0000;
     --divider-row: #515c6f;
+    --accordion-background: #303030; 
+    --black: #000000;
 }
 
 #initial-content {
@@ -30,4 +32,44 @@
 
 .divider-row {
   border-bottom: 3px solid var(--divider-row);
+}
+
+.accordion-button {
+    background-color: var(--accordion-background);
+    color: var(--text-color);
+    padding: 25px;
+    margin: 2px;
+}
+
+.accordion,
+.accordion-item,
+.accordion-button {
+    border: none !important;
+    margin: 5px 0;
+}
+
+.accordion-button::after {
+    display: none;
+}
+
+.accordion-button .custom-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.custom-toggle img {
+    width: 20px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--accordion-background);
+    color: var(--text-color);
+}
+
+.accordion-button:not(.collapsed) .custom-icon {
+    transform: rotate(180deg);
 }
