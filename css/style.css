@@ -5,6 +5,7 @@
     --divider-row: #515c6f;
     --accordion-background: #303030; 
     --black: #000000;
+    --footer-text: #808080;
 }
 
 #initial-content {
@@ -72,4 +73,19 @@
 
 .accordion-button:not(.collapsed) .custom-icon {
     transform: rotate(180deg);
+}
+
+#footer {
+    color: var(--footer-text);
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+    padding-left: 0;
+}
+
+.list-group-item a{
+    text-decoration: none;
+    color: var(--footer-text);
 }
