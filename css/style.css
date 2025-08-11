@@ -20,6 +20,14 @@
     height: 30px;
 }
 
+#header {
+    min-height: 720px;
+}
+
+#header-content {
+    flex: text-end;
+}
+
 .btn-red {
     background-color: var(--btn-background);
     color: var(--text-color);
