@@ -5,7 +5,9 @@ export const movies = [
         title: "Growcast #00 | Conheça a Growdev",
         link: "https://www.youtube.com/embed/aJ-HZuLcKeA",
         category: "Growcast [Episódios]",
-        highlight: false,
+        highlight: true,
+        highlight_title: "GROWCAST",
+        highlight_category: "PODCAST",
         iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/aJ-HZuLcKeA?si=d63jEr5JHBCAAuQa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
     {
@@ -14,6 +16,8 @@ export const movies = [
         link: "https://www.youtube.com/embed/7OWT3lfHYvE",
         category: "Growcast [Episódios]",
         highlight: false,
+        highlight_title: "GROWCAST",
+        highlight_category: "PODCAST",
         iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/7OWT3lfHYvE?si=0dKl_UwqHEOQL97a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
     {
@@ -22,6 +26,8 @@ export const movies = [
         link: "https://www.youtube.com/embed/ci1eQGPK89o",
         category: "Growcast [Episódios]",
         highlight: false,
+        highlight_title: "GROWCAST",
+        highlight_category: "PODCAST",
         iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ci1eQGPK89o?si=N5qYS5qWGDnkhTQ2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
     {
@@ -30,6 +36,8 @@ export const movies = [
         link: "https://www.youtube.com/embed/WM7pGG7OicQ",
         category: "Growcast [Episódios]",
         highlight: false,
+        highlight_title: "GROWCAST",
+        highlight_category: "PODCAST",
         iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/WM7pGG7OicQ?si=f7pA6YiEe-D8USQf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
     {
@@ -38,6 +46,8 @@ export const movies = [
         link: "https://www.youtube.com/embed/2c8VOBZ160Y",
         category: "Growcast [Episódios]",
         highlight: false,
+        highlight_title: "GROWCAST",
+        highlight_category: "PODCAST",
         iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/2c8VOBZ160Y?si=dwWAR5KZyr0K51i7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
     {
@@ -46,6 +56,8 @@ export const movies = [
         link: "https://www.youtube.com/embed/mxnEm03cYPc",
         category: "Growcast [Episódios]",
         highlight: false,
+        highlight_title: "GROWCAST",
+        highlight_category: "PODCAST",
         iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/mxnEm03cYPc?si=l4TioHQz1AA76Z-u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
     {
@@ -54,6 +66,8 @@ export const movies = [
         link: "https://www.youtube.com/embed/m7DyR07KrOE",
         category: "Growcast [Episódios]",
         highlight: false,
+        highlight_title: "GROWCAST",
+        highlight_category: "PODCAST",
         iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/m7DyR07KrOE?si=gYA6ZRCICHHSyzkB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
     {
@@ -62,6 +76,8 @@ export const movies = [
         link: "https://www.youtube.com/embed/vW8G9KPwRL0",
         category: "Growcast [Episódios]",
         highlight: false,
+        highlight_title: "GROWCAST",
+        highlight_category: "PODCAST",
         iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/vW8G9KPwRL0?si=Qp_mnb2hNXBBjsbW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
     {
@@ -70,6 +86,8 @@ export const movies = [
         link: "https://www.youtube.com/embed/_Ut2KqAqPyk",
         category: "Growcast [Episódios]",
         highlight: false,
+        highlight_title: "GROWCAST",
+        highlight_category: "PODCAST",
         iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/_Ut2KqAqPyk?si=XTcchkDMBvPp06PE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
     {
@@ -78,6 +96,8 @@ export const movies = [
         link: "https://www.youtube.com/embed/dfDgs0Ive2Q",
         category: "Growcast [Episódios]",
         highlight: false,
+        highlight_title: "GROWCAST",
+        highlight_category: "PODCAST",
         iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/dfDgs0Ive2Q?si=0z9ZVDOqoUV4dBjv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
     {
@@ -86,6 +106,8 @@ export const movies = [
         link: "https://www.youtube.com/embed/ggB0fVqVobs",
         category: "Growcast [Episódios]",
         highlight: false,
+        highlight_title: "GROWCAST",
+        highlight_category: "PODCAST",
         iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ggB0fVqVobs?si=YBbPBCKC2-B8VNQv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
     {
@@ -94,6 +116,8 @@ export const movies = [
         link: "https://www.youtube.com/embed/DfVhbfbubAE",
         category: "Growcast [Episódios]",
         highlight: false,
+        highlight_title: "GROWCAST",
+        highlight_category: "PODCAST",
         iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/DfVhbfbubAE?si=LPlfNS3gR_5W6PpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
     {
@@ -102,6 +126,8 @@ export const movies = [
         link: "https://www.youtube.com/embed/VOvngm1kTzg",
         category: "Growcast [Episódios]",
         highlight: false,
+        highlight_title: "GROWCAST",
+        highlight_category: "PODCAST",
         iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/VOvngm1kTzg?si=CLg1Zn-8Bg1yKV55" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
     {
@@ -110,6 +136,8 @@ export const movies = [
         link: "https://www.youtube.com/embed/5sNcYSupqSU",
         category: "Growcast [Episódios]",
         highlight: false,
+        highlight_title: "GROWCAST",
+        highlight_category: "PODCAST",
         iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/5sNcYSupqSU?si=0rloquIyiGyygbd_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
 
@@ -120,6 +148,8 @@ export const movies = [
         link: "https://www.youtube.com/embed/WKbLXuP9S-c",
         category: "Webinar em Flutter",
         highlight: false,
+        highlight_title: "WEBINAR EM FLUTTER",
+        highlight_category: "WEBINAR",
         iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/WKbLXuP9S-c?si=xDFIWrQZ3Xj7tmRJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
     {
@@ -128,6 +158,8 @@ export const movies = [
         link: "https://www.youtube.com/embed/dJ6y1zMjVXU",
         category: "Webinar em Flutter",
         highlight: false,
+        highlight_title: "WEBINAR EM FLUTTER",
+        highlight_category: "WEBINAR",
         iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/dJ6y1zMjVXU?si=sags-rrc2NXpEaSZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
     {
@@ -136,6 +168,8 @@ export const movies = [
         link: "https://www.youtube.com/embed/8rdJsqUjsGg",
         category: "Webinar em Flutter",
         highlight: false,
+        highlight_title: "WEBINAR EM FLUTTER",
+        highlight_category: "WEBINAR",
         iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/8rdJsqUjsGg?si=aGv-XMKLiWa7xSnx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
     {
@@ -144,6 +178,8 @@ export const movies = [
         link: "https://www.youtube.com/embed/C4p_7qBsECw",
         category: "Webinar em Flutter",
         highlight: false,
+        highlight_title: "WEBINAR EM FLUTTER",
+        highlight_category: "WEBINAR",
         iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/C4p_7qBsECw?si=9qyrmB4UYyujlM_z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
     {
@@ -152,6 +188,8 @@ export const movies = [
         link: "https://www.youtube.com/embed/L1pKoMC6hWk",
         category: "Webinar em Flutter",
         highlight: false,
+        highlight_title: "WEBINAR EM FLUTTER",
+        highlight_category: "WEBINAR",
         iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/L1pKoMC6hWk?si=SG8QTjjTdJ3fkxlr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
 
@@ -162,6 +200,8 @@ export const movies = [
         link: "https://www.youtube.com/embed/-26aqPtgoEY",
         category: "Jornada UX/UI",
         highlight: false,
+        highlight_title: "JORNADA UX/UI",
+        highlight_category: "WEB DESIGN",
         iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/-26aqPtgoEY?si=oRC0FkaRj9ZZ1vDy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
     {
@@ -170,6 +210,8 @@ export const movies = [
         link: "https://www.youtube.com/embed/8sd3wuKTZMA",
         category: "Jornada UX/UI",
         highlight: false,
+        highlight_title: "JORNADA UX/UI",
+        highlight_category: "WEB DESIGN",
         iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/8sd3wuKTZMA?si=kRwXIeNHCWrjRLS2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
     {
@@ -178,6 +220,8 @@ export const movies = [
         link: "https://www.youtube.com/embed/ZMZjQ9aRuIY",
         category: "Jornada UX/UI",
         highlight: false,
+        highlight_title: "JORNADA UX/UI",
+        highlight_category: "WEB DESIGN",
         iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ZMZjQ9aRuIY?si=cVCWJidYWOf98bEx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
     {
@@ -186,6 +230,8 @@ export const movies = [
         link: "https://www.youtube.com/embed/cwqDu0ZzbYE",
         category: "Jornada UX/UI",
         highlight: false,
+        highlight_title: "JORNADA UX/UI",
+        highlight_category: "WEB DESIGN",
         iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/cwqDu0ZzbYE?si=aeMZMo9WjOv385-q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
     {
@@ -194,6 +240,8 @@ export const movies = [
         link: "https://www.youtube.com/embed/FiZMowbaiJA",
         category: "Jornada UX/UI",
         highlight: false,
+        highlight_title: "JORNADA UX/UI",
+        highlight_category: "WEB DESIGN",
         iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/FiZMowbaiJA?si=nnqq9llr8avlOzO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
 
@@ -204,6 +252,8 @@ export const movies = [
         link: "https://www.youtube.com/embed/QsuhYgsSYQo",
         category: "Diversos",
         highlight: false,
+        highlight_title: "TALENTOS",
+        highlight_category: "DIVERSOS",
         iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/QsuhYgsSYQo?si=PYEXOxqBlFEjfHf_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
     {
@@ -212,6 +262,8 @@ export const movies = [
         link: "https://www.youtube.com/embed/cQDQNX6NXYo",
         category: "Diversos",
         highlight: false,
+        highlight_title: "OPORTUNIDADE",
+        highlight_category: "DIVERSOS",
         iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/cQDQNX6NXYo?si=74jiWOeTgwJoK8Y0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
     {
@@ -220,6 +272,8 @@ export const movies = [
         link: "https://www.youtube.com/embed/xHXdbcrfF38",
         category: "Diversos",
         highlight: false,
+        highlight_title: "FORÇA FEMININA",
+        highlight_category: "DIVERSOS",
         iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/xHXdbcrfF38?si=I8C4hd8VfUeeQIWG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
     {
@@ -228,6 +282,8 @@ export const movies = [
         link: "https://www.youtube.com/embed/1LzD5zkgQKo",
         category: "Diversos",
         highlight: false,
+        highlight_title: "INTERFACES FUNCIONAIS",
+        highlight_category: "DIVERSOS",
         iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/1LzD5zkgQKo?si=DzT-DsfXxBISuEZI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
     {
@@ -236,6 +292,8 @@ export const movies = [
         link: "https://www.youtube.com/embed/DDZlNilnVEI",
         category: "Diversos",
         highlight: false,
+        highlight_title: "PLANEJAMENTO",
+        highlight_category: "DIVERSOS",
         iframe: '<iframe width="560" height="315" src="https://www.youtube.com/embed/DDZlNilnVEI?si=oZJijuLnBupbe55i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>',
     },
 ];
