@@ -6,6 +6,7 @@
     --accordion-background: #303030; 
     --black: #000000;
     --footer-text: #808080;
+    --growdev-orange: #ff7200;
 }
 
 #initial-content {
@@ -24,8 +25,12 @@
     min-height: 720px;
 }
 
-#header-content {
-    flex: text-end;
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.btn-home{
+    padding: 10px 20px;
 }
 
 .btn-red {
@@ -96,4 +101,42 @@
 .list-group-item a{
     text-decoration: none;
     color: var(--footer-text);
+}
+
+.card {
+    background-color: var(--black);
+    transition: all 0.5s ease-out;
+}
+
+.card:hover{
+        position: absolute;
+        margin-top: -20px;
+        width: 350px !important;
+        z-index: 1;
+
+    .card-body{
+        display: block;
+    }
+}
+
+.card-body{
+    display: none;
+}
+
+.link-card {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.icon-video {
+    padding: 6px 5px 10px 0px;
+}
+
+.category-hover a{
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.category-hover a:hover {
+    color: var(--growdev-orange);
 }

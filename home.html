@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/libs/bootstrap-5.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./assets/libs/bootstrap-icons-1.13.1/bootstrap-icons.min.css">
     <title>Growflix - Todos os vídeos da Growdev em um só lugar.</title>
 </head>
+
 <body>
     <main class="bg-black">
         <section id="header" class="container-fluid">
@@ -35,16 +38,39 @@
             </div>
             <div class="row">
                 <div id="header-content" class="col-12">
+                    <div class="container position-relative" style="min-height: 680px;">
+                        <div class="position-absolute text-white p-5" style="bottom: 30px;">
+                            <p class="fw-bold text-shadow"><small>PODCAST</small></p>
+                            <h2 class="m-0 display-1 fw-bold text-shadow">GROWDEV</h2>
+                            <button class="btn btn-light btn-sm mt-1 fw-bold btn-hone"><i class="bi bi-play-fill"></i>Assistir</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="main-content-movies container-fluid divider-row">
+            <div class="row">
+                <div class="col-12">
                     <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <p class="text-white fw-bold"><small>PODCAST</small></p>
+                        <div id="growcast-content" class="row">
+                            <div class="col-12 mt-1">
+                                <p class="fw-bold text-white category-hover"><a href="#">Growcast [Episódios]</a></p>
                             </div>
-                            <div class="col-12">
-                                <h1 class="text-white fw-bold">GROW</h1>
+                        </div>
+                        <div id="flutter-content" class="row">
+                            <div class="col-12 mt-1">
+                                <p class="fw-bold text-white category-hover"><a href="#">Webinar em Flutter</a></p>
                             </div>
-                            <div class="col-12">
-                                <button type="button" class="btn btn-light fw-bold">Assistir</button>
+                        </div>
+                        <div id="uxui-content" class="row">
+                            <div class="col-12 mt-1">
+                                <p class="fw-bold text-white category-hover"><a href="#">Jornada UI/UX</a></p>
+                            </div>
+                        </div>
+                        <div id="other-content" class="row">
+                            <div class="col-12 mt-1">
+                                <p class="fw-bold text-white category-hover"><a href="#">Diversos</a></p>
                             </div>
                         </div>
                     </div>
@@ -52,6 +78,57 @@
             </div>
         </section>
     </main>
+    <footer id="footer" class="container-fluid bg-black">
+        <div class="row">
+            <div class="col-12">
+                <div class="container">
+                    <div class="row pt-5 pb-5">
+                        <div class="col-12 pb-4">
+                            <p>Dúvidas? Ligue 0800 591 8942</p>
+                        </div>
+                        <div class="col-sm-3">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><a href="#"><small>Perguntas Frequentes</small></a></li>
+                                <li class="list-group-item"><a href="#"><small>Relações com investidores</small></a></li>
+                                <li class="list-group-item"><a href="#"><small>Fromas de assistir</small></a></li>
+                                <li class="list-group-item"><a href="#"><small>Informações corporativas</small></a></li>
+                                <li class="list-group-item"><a href="#"><small>Só na Growdev</small></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><a href="#"><small>Central de Ajuda</small></a></li>
+                                <li class="list-group-item"><a href="#"><small>Carreiras</small></a></li>
+                                <li class="list-group-item"><a href="#"><small>Termos de Uso</small></a></li>
+                                <li class="list-group-item"><a href="#"><small>Entre em contato</small></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><a href="#"><small>Conta</small></a></li>
+                                <li class="list-group-item"><a href="#"><small>Resgatar cartão pré-pago</small></a></li>
+                                <li class="list-group-item"><a href="#"><small>Privacidade</small></a></li>
+                                <li class="list-group-item"><a href="#"><small>Teste de velocidade</small></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><a href="#"><small>Media Center</small></a></li>
+                                <li class="list-group-item"><a href="#"><small>Comprar cartão pré-pago</small></a></li>
+                                <li class="list-group-item"><a href="#"><small>Preferências de cookies</small></a></li>
+                                <li class="list-group-item"><a href="#"><small>Avisos legais</small></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 pt-5">
+                            <p>Growflix Growdev</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="./js/home.js"></script>
     <script src="./Assets/libs/bootstrap-5.3.7/js/bootstrap.bundle.js"></script>
 </body>
+
 </html>
