@@ -109,14 +109,14 @@
 }
 
 .card:hover{
-        position: absolute;
-        margin-top: -20px;
-        width: 350px !important;
-        z-index: 1;
+    position: absolute;
+    margin-top: -20px;
+    width: 350px !important;
+    z-index: 1;
+}
 
-    .card-body{
-        display: block;
-    }
+.card:hover .card-body {
+    display: block;
 }
 
 .card-body{
@@ -124,8 +124,8 @@
 }
 
 .link-card {
-    text-decoration: none;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .icon-video {
@@ -139,4 +139,23 @@
 
 .category-hover a:hover {
     color: var(--growdev-orange);
+}
+
+.modal-header {
+    align-items: flex-end;
+    border: none;
+    padding: 16px;
+}
+
+.modal-body {
+    padding: 0px;
+    width: 100%;
+}
+
+.modal-custom {
+    background: transparent;
+}
+
+.close-icon {
+    font-size: 30px;
 }
