@@ -35,9 +35,9 @@ function renderHighlighted(element){
 function renderMovies (element, category){
   category.forEach((movie) => {
         element.innerHTML += `
-            <div class="col-12 col-md-6 col-lg-3 g-4">
-              <div class="card h-100 ">
-                <img src="${movie.img}" class="card-img-top overflow-visible" alt="${movie.title}">
+            <div class="col-12 col-md-6 col-lg-3 col-movie g-4">
+              <div class="card">
+                <img src="${movie.img}" class="card-img-top" alt="${movie.title}">
                 <div class="card-body bg-black">
                   <p class="card-text text-white link-card" onclick="videoModal(this)" data-iframe='${movie.iframe}' ><i class="bi bi-play-circle-fill icon-video"></i>${movie.title}</p>
                 </div>
@@ -54,8 +54,7 @@ function videoModal (element){
 }
 
 window.onload = function () {
-  backgroundHome.style.background = `url("${highlight.img}") center top / cover no-repeat`;
-  backgroundHome.style.width = '100vw';
+  backgroundHome.style.background = `url("${highlight.img}") center center / cover no-repeat`;
   renderHighlighted(highlight);
   renderMovies(growcastSection, growcastContent);
   renderMovies(webinarSection, flutterContent);
