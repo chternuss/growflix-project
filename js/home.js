@@ -54,8 +54,7 @@ function videoModal (element){
 }
 
 window.onload = function () {
-  backgroundHome.style.background = `url("${highlight.img}") center top / cover no-repeat`;
-  backgroundHome.style.width = '100vw';
+  backgroundHome.style.background = `url("${highlight.img}") center center / cover no-repeat`;
   renderHighlighted(highlight);
   renderMovies(growcastSection, growcastContent);
   renderMovies(webinarSection, flutterContent);
