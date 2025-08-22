@@ -103,20 +103,28 @@
     color: var(--footer-text);
 }
 
+.header-content {
+    align-items: flex-end;
+    min-height: 680px;
+}
+
 .card {
     background-color: var(--black);
-    transition: all 0.5s ease-out;
+    transition: all 0.3s ease-out;
+    position: relative;
+    z-index: 0;
 }
 
 .card:hover{
-    position: absolute;
+    transform: scale(1.1);
+    z-index: 10;
     margin-top: -20px;
-    width: 350px !important;
-    z-index: 1;
-}
-
-.card:hover .card-body {
-    display: block;
+    position: absolute;
+    width: 350px;
+    padding-bottom: 20px;
+    .card-body{
+        display: block;
+    }
 }
 
 .card-body{
