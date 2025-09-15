@@ -11,4 +11,3 @@ Project Highlights:
 Known Issues:
 
 - On the home.html page, the banner/highlighted video image does not fully match the example provided by Growdev. This happens because the image is pulled directly from YouTube, which adds black borders to the top and bottom.
-- In the cards, whenever a category contains only one video in the last row (e.g., Webinar em Flutter, Jornada UI/UX , Diversos), the last card shifts the surrounding elements upward on hover. This behavior does not occur when there are two or more videos in the same row (e.g., Growcast [Episodes]).
