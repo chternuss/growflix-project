@@ -39,7 +39,7 @@ function renderMovies (element, category){
               <div class="card">
                 <img src="${movie.img}" class="card-img-top" alt="${movie.title}">
                 <div class="card-body bg-black">
-                  <p class="card-text text-white link-card" onclick="videoModal(this)" data-iframe='${movie.iframe}' ><i class="bi bi-play-circle-fill icon-video"></i>${movie.title}</p>
+                  <p class="card-text text-white fw-bold link-card" onclick="videoModal(this)" data-iframe='${movie.iframe}' ><i class="bi bi-play-circle-fill icon-video"></i>${movie.title}</p>
                 </div>
               </div>
             </div>
